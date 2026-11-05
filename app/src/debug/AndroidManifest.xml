@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Shell-only visual QA surface. This component is absent from release builds. -->
+        <activity
+            android:name=".MapArtPreviewActivity"
+            android:exported="true"
+            android:permission="android.permission.DUMP"
+            android:label="坐标 · 图标预览" />
+    </application>
+</manifest>

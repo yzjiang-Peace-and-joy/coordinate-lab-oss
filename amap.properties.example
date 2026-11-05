@@ -1,0 +1,2 @@
+# Copy to amap.local.properties (excluded from Git), then set your own Android SDK key.
+AMAP_ANDROID_KEY=
